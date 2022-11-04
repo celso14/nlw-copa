@@ -1,7 +1,7 @@
 import Fastify from "fastify";
 import cors from '@fastify/cors';
 import { z } from 'zod';
-import ShortUniqueId, { shortUniqueId } from 'short-unique-id';
+import ShortUniqueId from 'short-unique-id';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient({
